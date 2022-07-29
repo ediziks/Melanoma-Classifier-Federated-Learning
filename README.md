@@ -13,6 +13,9 @@ With the help of federated learning, the app also functions as a way to enhance 
 
 <img width="1348" alt="image" src="https://user-images.githubusercontent.com/24277311/181752034-0b81d46a-5a4d-4adb-ae98-7a81ff5852d4.png">
 
+<img width="1348" alt="image" src="https://github.com/natfal14/Melanoma-Classifier/files/9220318/DSA.5.Poster.1.pdf">
+
+
 ## Download necessary data before running the app
 
 - [isicdata plain train/test images](https://www.kaggle.com/datasets/nroman/melanoma-external-malignant-256/download?datasetVersionNumber=1)
