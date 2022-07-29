@@ -9,6 +9,11 @@ In this project, we designed an app that allows users to classify and visualize 
 
 With the help of federated learning, the app also functions as a way to enhance the base model's parameters. Users with similar datasets can insert their labeled data into the app where it will retrain the model with new parameters. This is based on the federated learning architecture where instead of giving raw data to a central server, each client gets the model on their own server where they can train on their own data and send back only the parameters they got from the training. So each client only sends back these parameters to the central server where all the parameters are aggregated, and a new model is formed and can be used on new data.
 
+
+
+<img width="1348" alt="image" src="https://user-images.githubusercontent.com/24277311/181752034-0b81d46a-5a4d-4adb-ae98-7a81ff5852d4.png">
+
+
 To run the app, type the following commands into the terminal:
 
 
