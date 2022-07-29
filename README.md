@@ -19,7 +19,7 @@ With the help of federated learning, the app also functions as a way to enhance 
 
 - [isicdata tfrecords data](https://www.kaggle.com/datasets/cdeotte/melanoma-512x512/download?datasetVersionNumber=3)
 
-- The data should be places within the project path as the structure below;
+- The data should be placed within the project path as the structure below;
 
 ```bash
 isicdata
