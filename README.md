@@ -1,5 +1,5 @@
 # Melanoma-Classifier
-Web app to classify melanoma using federated learning
+## Web app to classify melanoma using federated learning
 
 The cells that make melanin, the pigment responsible for your skin's color, can grow into melanoma, the most dangerous kind of skin cancer. Melanoma can also develop in your eyes and, very rarely, within your body, including in your throat or nose.
 
@@ -13,8 +13,28 @@ With the help of federated learning, the app also functions as a way to enhance 
 
 <img width="1348" alt="image" src="https://user-images.githubusercontent.com/24277311/181752034-0b81d46a-5a4d-4adb-ae98-7a81ff5852d4.png">
 
+## Download necessary data before running the app
 
-To run the app, type the following commands into the terminal:
+- [isicdata plain train/test images](https://www.kaggle.com/datasets/nroman/melanoma-external-malignant-256/download?datasetVersionNumber=1)
+
+- [isicdata tfrecords data](https://www.kaggle.com/datasets/cdeotte/melanoma-512x512/download?datasetVersionNumber=3)
+
+- The data should be places within the project path as the structure below;
+
+```bash
+isicdata
+├── datasets
+│   ├── doctor_case.csv
+│   ├── doctor_case2.csv
+│   ├── test.csv
+│   ├── train.csv
+│   └── train_concat.csv
+├── test
+├── tfrecords
+└── train
+```
+
+## To run the app, type the following commands into the terminal:
 
 
 `git clone git@github.com:natfal14/Melanoma-Classifier.git`
