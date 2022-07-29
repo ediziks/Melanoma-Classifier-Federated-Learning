@@ -10,13 +10,11 @@ In this project, we designed an app that allows users to classify and visualize 
 With the help of federated learning, the app also functions as a way to enhance the base model's parameters. Users with similar datasets can insert their labeled data into the app where it will retrain the model with new parameters. This is based on the federated learning architecture where instead of giving raw data to a central server, each client gets the model on their own server where they can train on their own data and send back only the parameters they got from the training. So each client only sends back these parameters to the central server where all the parameters are aggregated, and a new model is formed and can be used on new data.
 
 
+![DSA 5 Poster](https://user-images.githubusercontent.com/54022220/181771710-c2ba1bc0-3707-4483-ac84-9dff3e7e2ce2.png)
 
-<img width="1348" alt="image" src="https://user-images.githubusercontent.com/24277311/181752034-0b81d46a-5a4d-4adb-ae98-7a81ff5852d4.png">
+## How to run?
 
-<img width="1348" alt="image" src="https://github.com/natfal14/Melanoma-Classifier/files/9220318/DSA.5.Poster.1.pdf">
-
-
-## Download necessary data before running the app
+### Download necessary data before running the app
 
 - [isicdata plain train/test images](https://www.kaggle.com/datasets/nroman/melanoma-external-malignant-256/download?datasetVersionNumber=1)
 
@@ -37,7 +35,7 @@ isicdata
 └── train
 ```
 
-## To run the app, type the following commands into the terminal:
+### To run the app, type the following commands into the terminal:
 
 
 `git clone git@github.com:natfal14/Melanoma-Classifier.git`
